@@ -23,27 +23,34 @@
             font-family: Abel;
         }
 
-        #circle1 {
+        .circle1 {
             background-color: #E6563B;
         }
 
-        #circle2 {
+        .circle2 {
             background-color: #DEA03D;
         }
 
-        #circle3 {
+        .circle3 {
             background-color: #7CB06C;
         }
 
-        #circle4 {
+        .circle4 {
             background-color: #00ABA9;
         }
 
-        .circle {
+        .big-circle{
             height: 105px;
             width: 105px;
-            border: 1em solid white;
-            border-radius: 105px;
+            border-radius: 50%;
+            line-height: 105px;
+        }
+
+        .small-circle {
+            height: 18px;
+            width: 18px;
+            border-radius: 50%;
+            line-height: 18px;
         }
 
     </style>
@@ -94,22 +101,41 @@
     </div>
 
     <div class="row">
-        <div class="col-12 col-md-6 circle">
-            <img src="" alt="" class="rounded-circle">
-            <h3 class="bold-header text-center" id="circle1">DESIGN</h3>
+        <div class="col-12 col-md-3 big-circle circle1 d-flex align-items-center justify-content-center">
+            <span class="bold-header text-center" id="circle1">DESIGN</span>
         </div>
-        <div class="col-12 col-md-6 circle">
+        <div class="col-12 col-md-3 big-circle circle2 d-flex align-items-center justify-content-center">
             <h3 class="bold-header text-center rounded-circle" id="circle2">DEVELOP</h3>
         </div>
-        <div class="col-12 col-md-6 circle">
+        <div class="col-12 col-md-3 big-circle circle3 d-flex align-items-center justify-content-center">
             <h3 class="bold-header text-center rounded-circle" id="circle3">SUPPORT</h3>
-            <h3 class="bold-header text-center rounded-circle" id="circle4">HOST</h3>
+        </div>
+        <div class="col-12 col-md-3 big-circle circle4 d-flex align-items-center justify-content-center">
+        <h3 class="bold-header text-center rounded-circle" id="circle4">HOST</h3>
         </div>
     </div>
 
     <div class="row">
         <div class="col-12">
-            <h6 class="abel-font text-center">SELECTED WORK</h6>
+            <h6 class="abel-font text-center mb-3">SELECTED WORK</h6>
+        </div>
+    </div>
+
+
+<!------------          FEATURED PROJECT IMAGES             ------------>
+
+    <div class="row">
+        <div class="col-12">
+            <img src="img/apple-ipad.jpg" alt="">
+        </div>
+    </div>
+    <!--         FEATURED PROJECT TEXT           --->
+    <div class="row">
+        <div class="col-12 col-sm-6">
+            <h6 class="abel-font">FEATURED PROJECT</h6>
+        </div>
+        <div class="col-12 col-sm-6">
+            <span class="bold-header small-circle">D</span>
         </div>
     </div>
 
