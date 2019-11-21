@@ -57,10 +57,29 @@
             font-size: 12px;
         }
 
-        img{
+        .card{
             border: 7px solid #e6e6e6;
             border-radius: 5px;
         }
+
+        .logo {
+            height: 105px;
+            width: 105px;
+            /*padding: 2em;*/
+            border-radius: 50%;
+        }
+
+        .gradient {
+            background-image:
+                    linear-gradient(
+                    #F0F0F0,
+                    #F0F0F0 25%,
+                    #FFFFFF 25%,
+                    #FFFFFF 75%,
+                    #F0F0F0 75%
+                    )
+        }
+
 
     </style>
 
@@ -70,8 +89,29 @@
 <div class="container">
 
 <!-----------------             Nav Section             ----------------->
+<div class="row bg-white gradient mt-3">
+    <div class="col-12">
+        <div class="text-center">
+            <img src="img/logo.png" alt="" class="logo img-fluid">
+        </div>
+    </div>
+</div>
 
+    <div class="row mb-2">
+        <div class="col-12 text-center">
+            <h1 class="abel-font">codeup design</h1>
+        </div>
+    </div>
 
+    <div class="row mb-5">
+        <div class="col-12 text-center">
+            <a href="" class="abel-font mx-1 text-dark">SERVICES</a>
+            <a href="" class="abel-font mx-1 text-dark">WORK</a>
+            <a href="" class="abel-font mx-1 text-dark">BLOG</a>
+            <a href="" class="abel-font mx-1 text-dark">CONTACT</a>
+
+        </div>
+    </div>
 
 <!------------      Header Text Section         -------------->
     <div class="container">
@@ -109,7 +149,7 @@
                  <!--         IMAGE 1          --->
                 <div class="row">
                     <div class="col-12">
-                        <img src="img/apple-ipad.jpg" class="img-fluid" alt="responsive image">
+                        <img src="img/apple-ipad.jpg" class="img-fluid card" alt="responsive image">
                     </div>
                 </div>
 
@@ -130,7 +170,7 @@
                 <!--         IMAGE 2          --->
                 <div class="row">
                     <div class="col-12">
-                        <img src="img/macbook.jpg" class="img-fluid" alt="responsive image">
+                        <img src="img/macbook.jpg" class="img-fluid card" alt="responsive image">
                     </div>
                 </div>
 
@@ -151,7 +191,7 @@
                 <!--         IMAGE 3          --->
                 <div class="row">
                     <div class="col-12">
-                        <img src="img/man.jpg" class="img-fluid" alt="responsive image">
+                        <img src="img/man.jpg" class="img-fluid card" alt="responsive image">
                     </div>
                 </div>
 
@@ -172,7 +212,7 @@
                 <!--         IMAGE 4          --->
                 <div class="row">
                     <div class="col-12">
-                        <img src="img/security.jpg" class="img-fluid" alt="responsive image">
+                        <img src="img/security.jpg" class="img-fluid card" alt="responsive image">
                     </div>
                 </div>
 
