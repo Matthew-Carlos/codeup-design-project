@@ -81,14 +81,52 @@
         }
 
 
+
+/********************************  MEDIA QUERIES  ********************************/
+
+        @media (max-width: 575.98px) { ... }
+
+        @media (min-width: 576px) and (max-width: 767.98px) {
+                .xs{
+                    display: none;
+                }
+
+                hr{
+                    border-top: 1px solid #cccccc;
+                    margin: 1em 4em;
+                }
+        }
+
+
+
+        @media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+        @media (min-width: 992px) { ... }
+
+
     </style>
 
 
+
+
+
+
+
+
 </head>
+
+
+
+
+
+
+
 <body id="custom">
+
 <div class="container">
 
-<!-----------------             Nav Section             ----------------->
+<!-----------------             NAV SECTION ONE             ----------------->
+    <div class="xs">
 <div class="row bg-white gradient mt-3">
     <div class="col-12">
         <div class="text-center">
@@ -103,7 +141,7 @@
         </div>
     </div>
 
-    <div class="row mb-5">
+    <div class="row mb-5 xs">
         <div class="col-12 text-center">
             <a href="" class="abel-font mx-1 text-dark">SERVICES</a>
             <a href="" class="abel-font mx-1 text-dark">WORK</a>
@@ -132,6 +170,60 @@
             <button type="button" class="btn circle3 btn-circle btn-xl bold-header mr-3 text-white">SUPPORT</button>
             <button type="button" class="btn circle4 btn-circle btn-xl bold-header text-white">HOST</button>
         </div>
+    </div>
+    </div>
+
+
+
+    <!-----------------             NAV SECTION TWO             ----------------->
+    <div class="d-none d-sm-block d-md-none">
+        <div class="row bg-white gradient mt-3">
+            <div class="col-12">
+                <div class="text-center">
+                    <a href="" class="abel-font mx-3 text-dark">SERVICES</a>
+                    <a href="" class="abel-font mx-3 text-dark">WORK</a>
+                    <img src="img/logo.png" alt="" class="logo img-fluid">
+                    <a href="" class="abel-font mx-3 text-dark">BLOG</a>
+                    <a href="" class="abel-font mx-3 text-dark">CONTACT</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1 class="abel-font m-0">codeup design</h1>
+            </div>
+        </div>
+
+        <div class="row mb-5 xs-sm">
+            <div class="col-12 text-center">
+
+
+
+            </div>
+        </div>
+
+        <!------------      Header Text Section         -------------->
+        <!--    <div class="container">-->
+        <div class="row">
+            <div class="col-12 p-0">
+                <h1 class="bold-header text-center">VISUAL DESIGN & WEB DEVELOPMENT</h1>
+                <h5 class="bold-header text-center my-4">FROM PARK CITY, UTAH</h5>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-sm-6 p-0 d-inline-flex justify-content-end">
+                <button type="button" class="btn circle1 btn-circle btn-xl bold-header mr-1 text-white">DESIGN</button>
+                <button type="button" class="btn circle2 btn-circle btn-xl bold-header text-white">DEVELOP</button>
+            </div>
+            <div class="col-12 col-sm-6 p-0">
+                <button type="button" class="btn circle3 btn-circle btn-xl bold-header ml-1 text-white">SUPPORT</button>
+                <button type="button" class="btn circle4 btn-circle btn-xl bold-header text-white">HOST</button>
+            </div>
+        </div>
+        <hr>
+
     </div>
 
 
