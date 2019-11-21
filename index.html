@@ -39,18 +39,27 @@
             background-color: #00ABA9;
         }
 
-        .big-circle{
-            height: 105px;
-            width: 105px;
-            border-radius: 50%;
-            line-height: 105px;
-        }
 
-        .small-circle {
+        .btn-circle.btn-sm {
             height: 18px;
             width: 18px;
+            padding: .5em;
             border-radius: 50%;
-            line-height: 18px;
+            font-size: 12px;
+        }
+
+        .btn-circle.btn-xl{
+            border: 7px solid white;
+            height: 105px;
+            width: 105px;
+            padding: 2em;
+            border-radius: 50%;
+            font-size: 12px;
+        }
+
+        img{
+            border: 7px solid #e6e6e6;
+            border-radius: 5px;
         }
 
     </style>
@@ -60,39 +69,12 @@
 <body id="custom">
 <div class="container">
 
-<!--Nav Section-->
+<!-----------------             Nav Section             ----------------->
 
-    <div class="row">
-        <div class="col-12">
 
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">Img</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Services <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Work</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
 
-        </div>
-    </div>
-
-<!--Header Text Section-->
-
+<!------------      Header Text Section         -------------->
+    <div class="container">
     <div class="row">
         <div class="col-12">
             <h1 class="bold-header text-center">VISUAL DESIGN & WEB DEVELOPMENT</h1>
@@ -101,17 +83,14 @@
     </div>
 
     <div class="row">
-        <div class="col-12 col-md-3 big-circle circle1 d-flex align-items-center justify-content-center">
-            <span class="bold-header text-center" id="circle1">DESIGN</span>
+        <div class="col-12 col-sm-6 d-flex align-items-center justify-content-center mb-2">
+            <button type="button" class="btn circle1 btn-circle btn-xl bold-header mr-3 text-white">DESIGN</button>
+            <button type="button"
+                    class="btn circle2 btn-circle btn-xl bold-header text-white">DEVELOP</button>
         </div>
-        <div class="col-12 col-md-3 big-circle circle2 d-flex align-items-center justify-content-center">
-            <h3 class="bold-header text-center rounded-circle" id="circle2">DEVELOP</h3>
-        </div>
-        <div class="col-12 col-md-3 big-circle circle3 d-flex align-items-center justify-content-center">
-            <h3 class="bold-header text-center rounded-circle" id="circle3">SUPPORT</h3>
-        </div>
-        <div class="col-12 col-md-3 big-circle circle4 d-flex align-items-center justify-content-center">
-        <h3 class="bold-header text-center rounded-circle" id="circle4">HOST</h3>
+        <div class="col-12 col-sm-6 d-flex align-items-center justify-content-center">
+            <button type="button" class="btn circle3 btn-circle btn-xl bold-header mr-3 text-white">SUPPORT</button>
+            <button type="button" class="btn circle4 btn-circle btn-xl bold-header text-white">HOST</button>
         </div>
     </div>
 
@@ -120,24 +99,110 @@
             <h6 class="abel-font text-center mb-3">SELECTED WORK</h6>
         </div>
     </div>
+    </div>
 
 
 <!------------          FEATURED PROJECT IMAGES             ------------>
 
-    <div class="row">
-        <div class="col-12">
-            <img src="img/apple-ipad.jpg" alt="">
-        </div>
-    </div>
-    <!--         FEATURED PROJECT TEXT           --->
-    <div class="row">
-        <div class="col-12 col-sm-6">
-            <h6 class="abel-font">FEATURED PROJECT</h6>
-        </div>
-        <div class="col-12 col-sm-6">
-            <span class="bold-header small-circle">D</span>
-        </div>
-    </div>
+
+                 <!--         IMAGE 1          --->
+                <div class="row">
+                    <div class="col-12">
+                        <img src="img/apple-ipad.jpg" class="img-fluid" alt="responsive image">
+                    </div>
+                </div>
+
+                <!--         FEATURED PROJECT TEXT           --->
+                <div class="row">
+                    <div class="col-12 col-sm-6 mt-2 d-inline-flex">
+                        <h6 class="abel-font mb-0 flex-fill">FEATURED PROJECT</h6>
+
+                        <button type="button" class="btn circle1 btn-circle btn-sm bold-header text-white">D</button>
+                        <button type="button" class="btn circle2 btn-circle btn-sm bold-header text-white">D</button>
+                        <button type="button" class="btn circle3 btn-circle btn-sm bold-header text-white">S</button>
+                        <button type="button" class="btn circle4 btn-circle btn-sm bold-header text-white">H</button>
+                    </div>
+                </div>
+
+
+
+                <!--         IMAGE 2          --->
+                <div class="row">
+                    <div class="col-12">
+                        <img src="img/apple-ipad.jpg" class="img-fluid" alt="responsive image">
+                    </div>
+                </div>
+
+                <!--         FEATURED PROJECT TEXT           --->
+                <div class="row">
+                    <div class="col-12 col-sm-6 mt-2 d-inline-flex">
+                        <h6 class="abel-font mb-0 flex-fill">FEATURED PROJECT</h6>
+
+                        <button type="button" class="btn circle1 btn-circle btn-sm bold-header text-white">D</button>
+                        <button type="button" class="btn circle2 btn-circle btn-sm bold-header text-white">D</button>
+                        <button type="button" class="btn circle3 btn-circle btn-sm bold-header text-white">S</button>
+                        <button type="button" class="btn circle4 btn-circle btn-sm bold-header text-white">H</button>
+                    </div>
+                </div>
+
+
+
+                <!--         IMAGE 3          --->
+                <div class="row">
+                    <div class="col-12">
+                        <img src="img/apple-ipad.jpg" class="img-fluid" alt="responsive image">
+                    </div>
+                </div>
+
+                <!--         FEATURED PROJECT TEXT           --->
+                <div class="row">
+                    <div class="col-12 col-sm-6 mt-2 d-inline-flex">
+                        <h6 class="abel-font mb-0 flex-fill">FEATURED PROJECT</h6>
+
+                        <button type="button" class="btn circle1 btn-circle btn-sm bold-header text-white">D</button>
+                        <button type="button" class="btn circle2 btn-circle btn-sm bold-header text-white">D</button>
+                        <button type="button" class="btn circle3 btn-circle btn-sm bold-header text-white">S</button>
+                        <button type="button" class="btn circle4 btn-circle btn-sm bold-header text-white">H</button>
+                    </div>
+                </div>
+
+
+
+                <!--         IMAGE 4          --->
+                <div class="row">
+                    <div class="col-12">
+                        <img src="img/apple-ipad.jpg" class="img-fluid" alt="responsive image">
+                    </div>
+                </div>
+
+                <!--         FEATURED PROJECT TEXT           --->
+                <div class="row">
+                    <div class="col-12 col-sm-6 mt-2 d-inline-flex">
+                        <h6 class="abel-font mb-0 flex-fill">FEATURED PROJECT</h6>
+
+                        <button type="button" class="btn circle1 btn-circle btn-sm bold-header text-white">D</button>
+                        <button type="button" class="btn circle2 btn-circle btn-sm bold-header text-white">D</button>
+                        <button type="button" class="btn circle3 btn-circle btn-sm bold-header text-white">S</button>
+                        <button type="button" class="btn circle4 btn-circle btn-sm bold-header text-white">H</button>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </div>
 
