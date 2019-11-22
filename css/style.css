@@ -1,0 +1,110 @@
+
+#custom {
+    background-color: #F0F0F0;
+}
+
+.bold-header {
+    font-family: Anton;
+}
+
+.abel-font {
+    font-family: Abel;
+}
+
+.circle1 {
+    background-color: #E6563B;
+}
+
+.circle2 {
+    background-color: #DEA03D;
+}
+
+.circle3 {
+    background-color: #7CB06C;
+}
+
+.circle4 {
+    background-color: #00ABA9;
+}
+
+
+.btn-circle.btn-sm {
+    height: 18px;
+    width: 18px;
+    padding: .2em 0 0 0;
+    border-radius: 50%;
+    font-size: 9px;
+}
+
+.btn-circle.btn-xl{
+    border: 7px solid white;
+    height: 105px;
+    width: 105px;
+    padding: 0;
+    border-radius: 50%;
+    font-size: 18px;
+}
+
+.card{
+    border: 7px solid #e6e6e6;
+    border-radius: 5px;
+}
+
+.logo {
+    height: 105px;
+    width: 105px;
+    /*padding: 2em;*/
+    border-radius: 50%;
+}
+
+.gradient {
+    background-image:
+            linear-gradient(
+                    #F0F0F0,
+                    #F0F0F0 25%,
+                    #FFFFFF 25%,
+                    #FFFFFF 75%,
+                    #F0F0F0 75%
+            )
+}
+
+.sm-imgs{
+    width: 2.5em;
+    height: 2.5em;
+    border: 1px solid #e6e6e6;
+    border-radius: 2px;
+}
+
+.tweet{
+    font-size: 10px;
+}
+
+p {
+    font-size: 14px;
+}
+
+.padding-left {
+    padding-left: 15em;
+}
+
+.padding-right {
+    padding-right: 18em;
+}
+
+.padding-last
+{
+    padding-left: 12em;
+}
+
+
+
+
+/********************************  MEDIA QUERIES  ********************************/
+        @media (min-width: 576px) and (max-width: 767.98px) {
+
+            hr{
+                border-top: 1px solid #cccccc;
+                margin: 1em 4em;
+            }
+
+        }
