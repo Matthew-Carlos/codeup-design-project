@@ -81,6 +81,16 @@
                     )
         }
 
+        .sm-imgs{
+            width: 2.5em;
+            height: 2.5em;
+            border: 1px solid #e6e6e6;
+            border-radius: 2px;
+        }
+
+        .tweet{
+            font-size: 12px;
+        }
 
 
 
@@ -292,8 +302,12 @@
 
                     <div class="row mt-5 ml-2 pt-5">
                         <div class="col-12 d-flex justify-content-between">
-                            <h6 class="abel-font mb-4">SELECTED WORK</h6>
-                            <h6 class="abel-font mb-4">THE LAST</h6>
+                            <div class="col-12 col-md-4">
+                                <h6 class="abel-font mb-4">SELECTED WORK</h6>
+                            </div>
+                            <div class="col-12 col-md-4 d-none d-md-block p-0">
+                                 <h6 class="d-none d-md-block abel-font mb-4">THE LAST</h6>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -435,11 +449,18 @@
                             <img src="img/macbook.jpg" class="img-fluid card" alt="responsive image">
                         </div>
 
+
                         <div class="col-12 d-none d-md-block col-md-4">
-                            <img src="img/mobile-phone.jpg" alt="" class="img-fluid">
-                            <h6 class="bold-header">THE ADMIN BAR AND ABSOLUTE POSITIONING</h6>
-                            <img src="img/head.jpg" alt="" class="img-fluid">
-                            <h6 class="bold-header">NIBBLER AWESOME WEBSITE TESTING</h6>
+
+                            <div class="d-inline-flex my-3">
+                                <img src="img/mobile-phone.jpg" alt="" class="img-fluid sm-imgs mr-2">
+                                <h6 class="bold-header">THE ADMIN BAR AND ABSOLUTE POSITIONING</h6>
+                            </div>
+                            <div class="d-inline-flex my-3">
+                                <img src="img/head.jpg" alt="" class="img-fluid sm-imgs mr-2">
+                                <h6 class="bold-header">NIBBLER AWESOME WEBSITE TESTING</h6>
+                            </div>
+
                         </div>
 
                     </div>
@@ -469,10 +490,13 @@
                             </div>
                         </div>
 
+
                         <div class="col-12 d-none d-md-block col-md-4">
-                            <img src="img/ipad.jpg" alt="" class="img-fluid">
-                            <h6 class="bold-header">HOW TO GET GOOGLE TO LIKE YOU</h6>
-                        </div>
+
+                            <div class="d-inline-flex my-3">
+                                <img src="img/ipad.jpg" alt="" class="img-fluid sm-imgs mr-2">
+                                <h6 class="bold-header">HOW TO GET GOOGLE TO LIKE YOU</h6>
+                            </div>
 
                     </div>
 
@@ -491,9 +515,14 @@
                         </div>
 
                         <div class="col-12 d-none d-md-block col-md-4">
+                            <div class="d-inline-flex">
                             <i class="fab fa-twitter fa-lg text-primary"></i>
                             <h6 class="abel-font">LAST TWEET</h6>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam ipsa iusto modi velit? Atque dolore exercitationem modi molestiae numquam vel?</p>
+                            </div>
+                            <p class="tweet">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam ipsa
+                                iusto
+                                modi
+                                velit? Atque dolore exercitationem modi molestiae numquam vel?</p>
                         </div>
 
                     </div>
@@ -522,7 +551,7 @@
                         </div>
 
                     </div>
-
+                </div>
 
 
 
